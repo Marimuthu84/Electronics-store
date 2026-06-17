@@ -1,0 +1,54 @@
+.offcanvas {
+  background: #222 !important;
+  color: white !important;
+  width: 200px !important;
+  height: 100vh !important;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #555 !important;
+  padding: 5px !important;
+}
+
+.offcanvas-title {
+  text-align: center;
+  font-size: larger;
+  color: white !important;
+}
+
+.btn-close {
+  filter: invert(1) !important;
+  position: relative !important;
+  left: -120px !important;
+}
+
+.offcanvas-body {
+  text-align: left;
+  padding: 0 !important;
+}
+
+.btn-open {
+  background-color: #ffffff !important;
+  border: none !important;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  padding: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-list li:hover {
+  background: #555;
+  cursor: pointer;
+}

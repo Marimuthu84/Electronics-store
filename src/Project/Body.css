@@ -1,0 +1,157 @@
+.content{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+    padding: 30px ;
+}
+#two{
+font-size: 60px;
+font-weight: bolder;
+ background: linear-gradient(to right, #0984E3, #00CEC9);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.description h3,.description h2{
+    color: #1E272E;
+}
+.description p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.content img{
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.content img:hover{
+    cursor: pointer;
+}
+.description button{
+    padding: 10px;
+    transition: transform 0.5s ease-out;
+    display: inline-block;
+    max-width: 200px;
+    background-color: #00CEC9;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.description button:hover{
+    transform: scale(1.05);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.heading a{
+    text-decoration: none;
+}
+.center{
+  text-align: center;
+  margin: 30px;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.categories-explore img{
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.categories-explore img:hover{
+    transform: scale(1.05);
+}
+.categories-explore{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around !important;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mobile-card,.access-card,.laptop-card{
+    position: relative;
+}
+
+#mobile,#accesso,#laptop{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+
+  /* Hero Section */
+  .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .content img{
+    width: 100%;
+    height: auto;
+  }
+
+
+  .description h1{
+    font-size: 2.5rem;
+  }
+
+  .description h2{
+    font-size: 1.5rem;
+  }
+
+  .description p{
+    font-size: 1rem;
+  }
+
+
+  .heading{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .categories-explore{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .laptop-card img,
+  .mobile-card img,
+  .access-card img{
+    width: 100%;
+    height: auto;
+  }
+
+  .access{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #laptop,
+  #mobile,
+  #accesso{
+    font-size: 1.5rem;
+  }
+}

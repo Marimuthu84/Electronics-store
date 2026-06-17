@@ -1,0 +1,96 @@
+/* Container spacing */
+.container {
+  margin-top: 40px;
+  width: 600px !important;
+}
+.card {
+  border-radius: 15px;
+  background-color: #dce7df !important;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card-type {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-price {
+  font-size: 18px;
+  color: #ff2b05;
+  margin: 5px 0;
+}
+
+  .card-location {
+  font-size: 14px;
+  color: #020202;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;  /* adds ... */
+}
+
+
+
+@media (max-width: 576px) {
+  .card {
+    margin: 5px;
+  }
+
+  .card img {
+    height: 140px;
+  }
+
+  .card-type {
+    font-size: 18px;
+  }
+
+  .card-price {
+    font-size: 16px;
+  }
+
+  .card-location {
+    font-size: 12px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .card img {
+    height: 150px;
+  }
+
+  .card-type {
+    font-size: 20px;
+  }
+}
+
+/* Laptops */
+@media (max-width: 992px) {
+  .card img {
+    height: 160px;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .card img {
+    height: 200px;
+  }
+}

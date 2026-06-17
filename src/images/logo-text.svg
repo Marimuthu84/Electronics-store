@@ -1,0 +1,106 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7e22ce;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Icon -->
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="50" fill="#7e22ce" opacity="0.1" />
+  
+  <!-- Tech Hub Icon - Circuit Board Style -->
+  <!-- Left Circuit Line -->
+  <path
+    d="M 35 45 L 48 45 L 48 62 L 35 62"
+    stroke="url(#mainGrad)"
+    stroke-width="3"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Center Circuit Line -->
+  <path
+    d="M 60 38 L 60 82"
+    stroke="url(#mainGrad)"
+    stroke-width="3"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- Right Circuit Line -->
+  <path
+    d="M 72 45 L 85 45 L 85 62 L 72 62"
+    stroke="url(#mainGrad)"
+    stroke-width="3"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Connection Nodes -->
+  <!-- Left nodes -->
+  <circle cx="35" cy="45" r="2.5" fill="#7e22ce" />
+  <circle cx="35" cy="62" r="2.5" fill="#7e22ce" />
+  <circle cx="48" cy="45" r="2.5" fill="#7e22ce" />
+  <circle cx="48" cy="62" r="2.5" fill="#7e22ce" />
+
+  <!-- Center nodes -->
+  <circle cx="60" cy="38" r="2.5" fill="#ec4899" />
+  <circle cx="60" cy="60" r="3" fill="url(#mainGrad)" />
+  <circle cx="60" cy="82" r="2.5" fill="#ec4899" />
+
+  <!-- Right nodes -->
+  <circle cx="72" cy="45" r="2.5" fill="#7e22ce" />
+  <circle cx="72" cy="62" r="2.5" fill="#7e22ce" />
+  <circle cx="85" cy="45" r="2.5" fill="#7e22ce" />
+  <circle cx="85" cy="62" r="2.5" fill="#7e22ce" />
+
+  <!-- Top Connection -->
+  <path
+    d="M 48 45 L 60 38"
+    stroke="url(#mainGrad)"
+    stroke-width="2"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- Bottom Connection -->
+  <path
+    d="M 48 62 L 60 60 L 72 62"
+    stroke="url(#mainGrad)"
+    stroke-width="2"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- Right Top Connection -->
+  <path
+    d="M 72 45 L 60 38"
+    stroke="url(#mainGrad)"
+    stroke-width="2"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- Right Bottom Connection -->
+  <path
+    d="M 72 62 L 60 82"
+    stroke="url(#mainGrad)"
+    stroke-width="2"
+    fill="none"
+    stroke-linecap="round"
+  />
+
+  <!-- Text: TechHub -->
+  <text x="130" y="75" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#mainGrad)">
+    TechHub
+  </text>
+
+  <!-- Text: STORE -->
+  <text x="130" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#7e22ce" letter-spacing="2">
+    STORE
+  </text>
+</svg>
